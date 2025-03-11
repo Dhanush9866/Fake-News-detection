@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fake News Detection System</h1>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <h2>Enter News Article...</h2>
+            <textarea id="newsInput" placeholder="Paste your news article..."></textarea>
+            <button id="checkNews">Check News</button>
+        </section>
+        <div id="loader" class="loader-container" style="display: none;">
+            <div class="spinner"></div>
+            <p>Checking news, please wait...</p>
+        </div>
+        
+
+        <section id="result-section">
+            <h2>Result:</h2>
+            <p id="result">Enter a news article to check if it's real or fake.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Fake News Detection System |</p>
+       <p>@Dhanush</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

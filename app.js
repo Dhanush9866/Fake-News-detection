@@ -25,16 +25,16 @@ async function getResponse(news) {
 const falsePrint = () => {
     console.log("Camed to false");
     
-    document.getElementById("result").innerText = "✅ This news appears to be real!";
-    document.getElementById("result").style.color = "green";
+    document.getElementById("result").innerText = "🚨 Fake News Detected!";
+    document.getElementById("result").style.color = "red";
 
 }
 
 const truePrint = () => {
     console.log("Camed to true");
     
-    document.getElementById("result").innerText = "🚨 Fake News Detected!";
-        document.getElementById("result").style.color = "red";
+    document.getElementById("result").innerText = "✅ This news appears to be real!";
+        document.getElementById("result").style.color = "green";
 }
 
 

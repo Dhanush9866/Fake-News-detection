@@ -48,8 +48,7 @@ document.getElementById("checkNews").addEventListener("click",function() {
     }
 
     
-    // Simulating Fake News Detection (Replace with API later)
-     // Randomly decide fake or real for now
+    
 
 
     getResponse(newsText).then((res) => {
